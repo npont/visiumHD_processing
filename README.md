@@ -1,2 +1,2 @@
 # visiumHD_processing
-visium HD is a spatial transcriptomics method that reaches single cell resolution. It can be processed with Seurat or scanpy. From pre-processing to segmentation and downstream analysis, I will share here my main scripts.
+visium HD is a spatial transcriptomics method that reaches single cell resolution thanks to a grid of 2 um squares. These can be binned to customize the resolution we want to reach. Visium HD data, which consist of both the H&E slide, the cytAssist image and the gene expression matrix, can be processed with Seurat or scanpy. From pre-processing to segmentation and downstream analysis, I will share here my main scripts.
