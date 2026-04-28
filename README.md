@@ -12,6 +12,7 @@ Overall the pipeline encompasses: tissue segmentation, QC, anatomical clusters d
 
 A pseudotime analysis was also conducted with a second visium HD sample owing to the same type of tissue but from a different developmental stage.
 
+```plaintext
 ├── Notebooks/
 │   ├── Benchmarking/
 |        *Comparison of visium HD and scRNA-seq sensitivity.*
@@ -40,6 +41,7 @@ A pseudotime analysis was also conducted with a second visium HD sample owing to
 |        *Prefer the use of the other scripts from this repo. But sopa allows the concatenation of the complete workflow.*
 └── src/
     *space ranger count function i.e. feature-barcode matrices generation*
+```
 
 **We worked with embryo head sample to study craniofacial muscles, but this pipeline can be adapted to any sample and organism.**
 
